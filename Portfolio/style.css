@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    border: 2px solid black;
+    margin: 10px;
+}
+
+/* Navigation */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: blue;
+}
+
+/* Hero */
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: gray;
+}
+
+/* Three Columns */
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.box h2 {
+    margin-bottom: 20px;
+}
+
+.box ul {
+    list-style: none;
+}
+
+.box ul li {
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Reviews */
+
+.review-section {
+    padding: 30px;
+    border-top: 1px solid black;
+}
+
+.review-section h2 {
+    margin-bottom: 25px;
+}
+
+.review-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.review {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+}
+
+.review h4 {
+    margin-top: 20px;
+    color: gray;
+}
+
+/* Footer */
+
+footer {
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Projects & Articles */
+
+.page {
+    padding: 40px;
+}
+
+.page h1 {
+    margin-bottom: 20px;
+}
+
+.page ul {
+    margin-left: 20px;
+}
+
+.page ul li {
+    margin: 15px 0;
+}
+
+/* Contact */
+
+form {
+    width: 450px;
+    margin: 40px auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
